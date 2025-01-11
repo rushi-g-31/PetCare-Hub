@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PetCare Hub - Caring for Your Best Friend</title>
+    <!--Bootstrap css link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--CDN link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--css link-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+  <body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="top_nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/logo.jpeg" class="img-fluid" style="width: 50px;" alt="logo"></a>
+          <h3 id="headingho">PetCare Hub</h3>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service-text">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" id="searchform">
+              <input class="form-control me-2 text-white" type="search" placeholder="Search..." id="searchbox" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit" id="searchbtn"><i class="bi bi-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--Container Banner-->
+      <div class="container-fluid bg-primary">
+        <div class="row justify-content-center" id="banner">
+          <div class="col-md-6 col-11" id="banner_text">
+            <h1>Expert Care for Your <br> Furry Companions</h1>
+            <p>At Dog Hospital, we provide compassionate and professional care to ensure your pets lead happy, healthy lives. From routine check-ups to emergency services, we are here for your best friend.</p>
+            <button type="button" class="btn" id="banner_btn1">Contact Us</button>
+            <button type="button" class="btn" id="banner_btn2">Our Services</button>  
+          </div>
+          <div class="col-md-4 d-none d-md-block" id="banner_img">
+            <img src="images/dog1.png" id="dogimg" class="img-fluid" alt="Happy Dog">
+          </div>
+        </div>
+
+        <!--Services-->
+        <div class="row justify-content-center" style="background-color: white;">
+          <div class="col-md-5 col-11" id="service-text">
+            <h1>Comprehensive Veterinary <br> Services</h1>
+           <p>Our services include vaccinations, dental care, surgeries, grooming, and nutritional advice. Our dedicated team is here to provide exceptional care for every stage of your pet's life.</p>
+            <button type="button" class="btn" id="service-btn">Learn More</button>
+          </div>
+          <div class="col-md-5 col-11" id="service-img">
+            <img src="images/resizedog.jpeg" alt="Veterinary Care" id="service-img1" class="img-fluid">
+          </div>
+        </div>
+
+        <!--Counter-->
+        <div class="row justify-content-center counter-text">
+          <div class="col-md-3 text-center text-white mt-5 mb-5"><i class="bi bi-heart-pulse counter-icon"></i>
+          <h3>34,793<br>
+          Happy Clients
+          </h3>
+          </div>
+          <div class="col-md-3 text-center text-white mt-5 mb-5"><i class="bi bi-buildings counter-icon"></i>
+          <h3>45<br>
+          Departments</h3></div>
+          <div class="col-md-3 text-center text-white mt-5 mb-5"><i class="bi bi-eyedropper counter-icon"></i>
+          <h3>54,762<br>
+          Vaccinations</h3>
+          </div>
+        </div>
+
+        <!--Blog-->
+        <div class="row bg-white justify-content-center" id="blog">
+            <div class="col-md-12 text-center">
+              <h1 id="blog-title">Recent Updates</h1>
+              <p id="blog-p">Stay informed with the latest tips, news, and updates from our experts.<br> Learn how to keep your pets happy and healthy.</p>
+            </div>
+            <div class="col-md-3 col-11 mt-4"><img src="images/doctorWithDog1.jpeg" alt="dog" class="img-fluid">
+            <div class="article-detail">
+              <h4 class="article-title">Understanding Canine Nutrition</h4>
+              <p class="article-date">July 09, 2024</p>
+              <p class="article-desc">Discover the essential nutrients your dog needs for a balanced diet and overall well-being.</p>
+              <p><a href="#" class="article-link">Read More+</a></p>
+            </div>
+            </div>
+            <div class="col-md-3 col-11 mt-4"><img src="images/doctorWithDog2.jpeg" alt="dog" class="img-fluid">
+              <div class="article-detail">
+                <h4 class="article-title">Vaccination: Protecting Your Pet</h4>
+                <p class="article-date">July 15, 2024</p>
+                <p class="article-desc">Learn about the importance of vaccinations and how they safeguard your pet's health.</p>
+                <p><a href="#" class="article-link">Read More+</a></p>
+              </div>
+            </div>
+            <div class="col-md-3 col-11 mt-4"><img src="images/doctorWithDog3.jpeg" alt="dog" class="img-fluid">
+              <div class="article-detail">
+                <h4 class="article-title">Grooming Tips for Healthy Coats</h4>
+                <p class="article-date">July 20, 2024</p>
+                <p class="article-desc">Explore our expert grooming tips to maintain your dog's coat and skin health.</p>
+                <p><a href="#" class="article-link">Read More+</a></p>
+              </div>
+            </div>
+        </div>
+        
+        <!--Footer-->
+        <div class="row justify-content-center bg-white text-white" id="footer">
+          <div class="col-md-3 col-11">
+            <h4>About</h4>
+            <a href="#">Our History</a><br>
+            <a href="#">Meet Our Team</a><br>
+            <a href="#">Mission & Values</a><br>
+            <a href="#">Terms & Conditions</a><br>
+            <a href="#">Privacy Policy</a>    
+          </div>
+          <div class="col-md-2 col-11">
+            <h4>Services</h4>
+            <a href="#">Veterinary Care</a><br>
+            <a href="#">Grooming</a><br>
+            <a href="#">Vaccinations</a><br>
+            <a href="#">Emergency Care</a><br>
+            <a href="#">Surgical Services</a><br>
+          </div>
+          <div class="col-md-4 col-11 text-end">
+            <h4>Subscribe to Our Newsletter</h4>
+            <p>Get the latest updates and tips delivered straight to your inbox.</p>
+            <form action="" id="footer-form">
+              <input type="text" id="footer-search-box" placeholder="Enter your email">
+              <button type="button" id="footer-search-submit"><i class="bi bi-cursor-fill"></i></button>
+            </form>
+            <i class="bi bi-instagram social-icon"></i>
+            <i class="bi bi-facebook social-icon"></i>
+            <i class="bi bi-twitter social-icon"></i>
+            <i class="bi bi-whatsapp social-icon"></i>
+          </div>
+        </div>
+      </div>
+
+    <!--Javascript connection-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
