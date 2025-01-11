@@ -1,6 +1,3 @@
-
-Here’s a description you can use for your PetCare Hub project on GitHub:
-
 PetCare Hub 🐾
 Caring for Your Best Friend
 
